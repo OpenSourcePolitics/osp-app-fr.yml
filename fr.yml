@@ -3,6 +3,8 @@ fr:
     menu:
       # change "Processus participatifs" in navbar
       # processes: Participations en cours
+    scopes:
+      global: Toute la ville
     application:
       documents:
         related_documents: Documents à consulter
