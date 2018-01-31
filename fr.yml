@@ -4,6 +4,8 @@ fr:
       proposal:
         address: Adresse
         has_address: Renseigner une adresse
+      user:
+        nickname: Votre pseudonyme
   decidim:
     application:
       documents:
