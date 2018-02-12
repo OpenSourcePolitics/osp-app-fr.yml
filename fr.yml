@@ -15,8 +15,6 @@ fr:
       meeting:
         end_time: Date et heure de fin
         start_time: Date et heure de début
-      user:
-        nickname: Votre pseudonyme
   activerecord:
     attributes:
       decidim/participatory_process:
@@ -149,14 +147,14 @@ fr:
       read_more: "(Lire la suite)"
     menu:
       # --> change "Processus participatifs" in navbar
-      # processes: Participations en cours
+      processes: Participations en cours
     participatory_processes:
       pages:
         home:
           highlighted_processes:
             # change "Processus actif" in homepage
-            # active_processes: Participations en cours
-            # see_all_processes: Voir toutes les participations en cours
+            active_processes: Participations en cours
+            see_all_processes: Voir toutes les participations en cours
       order_by_processes:
         active: Actif
         past: Passés
