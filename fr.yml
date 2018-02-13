@@ -1,6 +1,13 @@
 fr:
   activemodel:
     attributes:
+      assembly:
+        developer_group: Promoteur
+        local_area: Périmètre
+        meta_scope: Échelle
+        participatory_scope: Objectif
+        participatory_structure: Modalités
+        target: Participants
       close_meeting:
         closing_report: Compte rendu
       meeting:
@@ -8,7 +15,12 @@ fr:
         registrations_enabled: Conditions d'inscription
       participatory_process:
         participatory_process_group_id: Groupe de concertations
-        participatory_scope: Objectif de la concertation
+        developer_group: Promoteur
+        local_area: Périmètre
+        meta_scope: Échelle
+        participatory_scope: Objectif
+        participatory_structure: Modalités
+        target: Participants
         promoted: Mise en avant
       participatory_process_group:
         participatory_process_ids: Concertations liées
@@ -16,9 +28,18 @@ fr:
         address: Adresse
         has_address: Renseigner une adresse
       scope:
-        scope_type: Type de zone de d'application  
+        scope_type: Type de zone d'application
       user:
         nickname: Votre pseudonyme
+  activerecord:
+    attributes:
+      decidim/participatory_process:
+        developer_group: Promoteur
+        local_area: Périmètre
+        meta_scope: Échelle
+        participatory_scope: Objectif
+        participatory_structure: Modalités
+        target: Participants
   decidim:
     admin:
       actions:
@@ -161,6 +182,14 @@ fr:
     application:
       documents:
         related_documents: Documents à consulter
+    assemblies:
+      show:
+        developer_group: Promoteur
+        local_area: Périmètre
+        participatory_scope: Objectif
+        participatory_structure: Modalités
+        meta_scope: Échelle
+        target: Participants
     devise:
       registrations:
         new:
@@ -198,9 +227,12 @@ fr:
             active_processes: Concertations en cours
             see_all_processes: Voir toutes les concertations
       show:
-        local_area: Périmètre de décision
-        participatory_scope: Objectif de la concertation
-        participatory_structure: Mode de décision
+        developer_group: Promoteur
+        local_area: Périmètre
+        participatory_scope: Objectif
+        participatory_structure: Modalités
+        meta_scope: Échelle
+        target: Participants
     scopes:
       global: Portée globale
   layouts:
@@ -219,4 +251,4 @@ fr:
   pages:
     home:
       extended:
-how_to_participate: Comment participer ?
+        how_to_participate: Comment participer ?
