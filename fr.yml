@@ -204,15 +204,27 @@ fr:
         actions:
           vote: Soutenir
         settings:
+          global:
+            vote_limit: Nombre maximum de soutiens par utilisateur
           step:
             votes_blocked: Soutiens bloqués
             votes_enabled: Soutiens activés
             votes_hidden: Cacher le compteur de soutiens
-        proposals:
-          vote_button:
-            filters: Soutenues / Votées
-            already_voted: Soutenue
-            already_voted_hover: Ne plus soutenir
+    proposals:
+      proposals:
+        filters:
+          voted: Soutenues
+        orders:
+          most_voted: Les plus soutenues
+        vote_button:
+          already_voted: Soutenue
+          already_voted_hover: Ne plus soutenir
+          maximum_votes_reached: Nombre maximum de soutiens atteint
+          vote: Soutenir
+        votes_count:
+          count:
+            one: SOUTIEN
+            other: SOUTIENS
     participatory_process_groups:
       show:
         group_participatory_processes: 'Processus pour %{group}'
