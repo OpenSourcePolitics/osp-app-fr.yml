@@ -1,4 +1,4 @@
-#Mise à jour des traductions
+# Mise à jour des traductions
 
 Ce repository contient les traductions customisées OSP utilisées par défaut dans toutes les apps.
 En attendant que ces traductions soient implémentées via Crowdin,  il faut copier/coller le fichier `fr.yml` ou `nl.yml` dans le dossier `config/locales` de l'app.
