@@ -1,19 +1,49 @@
 fr:
   activemodel:
     attributes:
+      assembly:
+        developer_group: Promoteur
+        local_area: Périmètre
+        meta_scope: Échelle
+        participatory_scope: Objectif
+        participatory_structure: Modalités
+        target: Participants
+      close_meeting:
+        closing_report: Compte rendu
+      meeting:
+        registation_terms:
+        registrations_enabled: Conditions d'inscription
       participatory_process:
         participatory_process_group_id: Groupe de la concertation
         participatory_scope: Objectif de la concertation
+        developer_group: Promoteur
+        local_area: Périmètre
+        meta_scope: Échelle
+        participatory_structure: Modalités
+        target: Participants
         promoted: Mise en avant
       participatory_process_group:
         participatory_process_ids: Concertations liées
       proposal:
         address: Adresse
         has_address: Renseigner une adresse
+      scope:
+        scope_type: Type de zone d'application
       user:
         nickname: Votre pseudonyme
+  activerecord:
+    attributes:
+      decidim/participatory_process:
+        developer_group: Promoteur
+        local_area: Périmètre
+        meta_scope: Échelle
+        participatory_scope: Objectif de la concertation
+        participatory_structure: Modalités
+        target: Participants
   decidim:
     admin:
+      actions:
+        new: Nouvelle
       assemblies:
         create:
           success: Agenda créé avec succès.
@@ -29,6 +59,8 @@ fr:
         destroy:
           success: Agenda dépublié avec succès.
       menu:
+        assemblies_submenu:
+          features: Fonctionnalités
         assemblies: Agenda
         navbar_links: Liens de navigation
         participatory_process_groups: Groupes de concertation
@@ -165,6 +197,13 @@ fr:
       documents:
         related_documents: Documents à consulter
     assemblies:
+      show:
+        developer_group: Promoteur
+        local_area: Périmètre
+        participatory_scope: Objectif
+        participatory_structure: Modalités
+        meta_scope: Échelle
+        target: Participants
       index:
         title: Agenda
       pages:
