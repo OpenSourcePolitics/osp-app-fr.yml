@@ -200,6 +200,7 @@ fr:
           subtitle: Inscrivez-vous pour participer et débattre sur la plateforme.
       sessions:
         new:
+          nickname_help: Votre identifiant court et unique
           are_you_new?: Nouveau sur la plateforme ?
     features:
       proposals:
