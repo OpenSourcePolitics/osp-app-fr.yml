@@ -2,7 +2,7 @@ fr:
   activemodel:
     attributes:
       assembly:
-        developer_group: Promoteur
+        developer_group: Organisateur
         local_area: Périmètre
         meta_scope: Échelle
         participatory_scope: Objectif
