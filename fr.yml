@@ -17,7 +17,7 @@ fr:
         cta_button_text: Texte du bouton d'action
       participatory_process:
         participatory_process_group_id: Groupe de processus
-        developer_group: Promoteur
+        developer_group: Organisateur
         local_area: Périmètre
         meta_scope: Échelle
         participatory_scope: Objectif
@@ -36,7 +36,7 @@ fr:
   activerecord:
     attributes:
       decidim/participatory_process:
-        developer_group: Promoteur
+        developer_group: Organisateur
         local_area: Périmètre
         meta_scope: Échelle
         participatory_scope: Objectif
@@ -186,7 +186,7 @@ fr:
         related_documents: Documents à consulter
     assemblies:
       show:
-        developer_group: Promoteur
+        developer_group: Organisateur
         local_area: Périmètre
         participatory_scope: Objectif
         participatory_structure: Modalités
@@ -268,7 +268,7 @@ fr:
             active_processes: Processus en cours
             see_all_processes: Voir tous les processus
       show:
-        developer_group: Promoteur
+        developer_group: Organisateur
         local_area: Périmètre
         participatory_scope: Objectif
         participatory_structure: Modalités
