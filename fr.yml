@@ -30,7 +30,7 @@ fr:
         address: Adresse
         has_address: Renseigner une adresse
       scope:
-        scope_type: Type de zone d'application
+        scope_type: Type de périmètre d'application
       user:
         nickname: Votre pseudonyme
   activerecord:
